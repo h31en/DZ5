@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 239, 239);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+   
+
+}
+.header{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    line-height: 35px;
+    text-indent: 30px;
+    /* text-align: center; */
+
+}
+.header::first-letter{
+    color: red;
+    font-size: 150%;
+}
+.header1{
+    float: left;
+    margin:  0 10px;
+    padding: 0 10px;
+}
+h1{
+    margin: 0 20px;
+    margin-left: 40px;
+    /* padding: 10px; */
+    
+}
+.nav{
+    margin: 50px;
+    
+   
+   
+}
+ul{
+    list-style-type: none;
+    /* list-style-position: inside; */
+    
+}
+li a{
+    font-size:large;
+    text-decoration: none;
+    color: #000;   
+    line-height: 30px;
+    
+    
+}
+li a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 25px;
+    transition: 0.5s;
+  
+}  
+h2{
+    margin: 15px 40px;
+    text-align: center;
+    transition: 0.7s;
+}
+h2:hover{
+    transform: scale(1.5,1.5);
+    transition: 0.7s;
+}
+.gl1{
+   
+    margin: 10px 40px;
+    float: left;
+   
+    filter: grayscale(1);
+    transition: 0.5s;
+    
+}
+
+
+.gl1:hover {
+    
+       filter: grayscale(0);
+  }
+.first{
+    line-height: 25px;
+    text-indent: 30px;
+}
+.first::first-letter{
+    color: red;
+    font-size: 150%;
+
+}
+.gl1{
+   
+    margin: 10px 40px;
+    float: left;
+   
+    filter: grayscale(1);
+    transition: 0.5s;
+    
+}
+
+
+.gl1:hover {
+    
+       filter: grayscale(0);
+  }
+.gl2{
+   
+    margin: 10px 40px;
+    float: right;
+   
+    filter: grayscale(1);
+    transition: 0.5s;
+    
+}
+
+
+.gl2:hover {
+    
+       filter: grayscale(0);
+  }
+  .second{
+    text-indent: 30px;
+    padding: 15px;
+  }
+  .second::first-letter{
+    color: red;
+    font-size: 150%;
+
+}
+
+.three{
+    display: block;
+    margin: auto;
+    width: 1024px;
+    height: 576px;
+    
+    background-image: url(img/glava3.jpg);
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+.three:hover{
+
+    background-image: url(img/glava333.jpg);
+}
+.four{
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 15px;
+}
+.four::first-letter{
+    color: red;
+    font-size: 150%;
+}
+.gl4{
+   
+    margin: 10px 40px;
+    float: left;
+   
+    filter: grayscale(1);
+    transition: 0.5s;
+    
+}
+
+
+.gl4:hover {
+    
+       filter: grayscale(0);
+  }
+.five{
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 15px;
+}
+.five::first-letter{
+    color: red;
+    font-size: 150%;
+}
+.gl5{
+   
+    margin: 10px 40px;
+    float:right;
+   
+    filter: grayscale(1);
+    transition: 0.5s;
+    
+}
+
+
+.gl5:hover {
+    
+     filter: grayscale(0);
+       
+  }
+.six{
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 15px;
+}
+.six::first-letter{
+    color: red;
+    font-size: 150%;
+}
+.end{
+    width: 100px;
+    height: 20px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    font-size:large;
+    margin: 30px;
+    text-decoration: none;
+    color: #000;  
+    background-color: rgb(170, 167, 167); 
+    line-height: 20px;
+    
+    
+}
+.end:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 0.5s;
+  
+} 
+@media (max-width: 740px){
+    .wrapper{
+    width: 300px;
+    float: left;
+    overflow: hidden;}
+
+
+
+    }
+@media (max-width: 320px){
+    .wrapper{
+    width: 300px;
+    float: left;
+    overflow: hidden;}
+    
+    
+    
+  }
+/* .wrapper:nth-child(odd){
+    background-color: rgb(211, 207, 207);
+} */
